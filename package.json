@@ -1,0 +1,27 @@
+{
+  "name": "@a2s/codex2server",
+  "version": "0.1.6",
+  "description": "Connect a local OpenAI Codex agent to an A2S relay server.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "codex2server": "bin/codex2server.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "config.example.json",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node bin/codex2server.js start",
+    "doctor": "node bin/codex2server.js doctor",
+    "test": "node --test",
+    "check": "node --check index.js && node --check lib/codex-app-server.js && node --check lib/codex-adapter.js"
+  },
+  "license": "MIT"
+}

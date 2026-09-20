@@ -1,0 +1,15 @@
+{
+  "executable": "codex",
+  "locale": "system",
+  "defaultCwd": ".",
+  "codexHome": null,
+  "model": null,
+  "effort": "medium",
+  "approvalPolicy": "on-request",
+  "permissionPreset": "workspace-write",
+  "allowedCwdPrefixes": [
+    "."
+  ],
+  "codexRequestTimeoutMs": 60000,
+  "logLevel": "info"
+}

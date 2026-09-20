@@ -1,0 +1,12 @@
+node_modules/
+coverage/
+dist/
+*.tgz
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+config.json
+*.key
+*.pem
