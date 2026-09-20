@@ -16,9 +16,6 @@ A2S 按组件拆分为以下同系列仓库，所有者均为 `23J1633`。/ A2S 
 | dsh2server | DeepSeek Harness 插件 / DeepSeek Harness plugin | [23J1633/dsh2server](https://www.github.com/23J1633/dsh2server) |
 | server-api | 中转服务与 Web 控制台 / relay server and Web console | [23J1633/server-api](https://www.github.com/23J1633/server-api) |
 | a2s_app | Flutter Android 客户端 / Flutter Android client | [23J1633/a2s_app](https://www.github.com/23J1633/a2s_app) |
-| scripts | 跨仓库验收脚本 / cross-repository acceptance scripts | [23J1633/scripts](https://www.github.com/23J1633/scripts) |
-| ICON | A2S 品牌源图 / A2S brand source artwork | [23J1633/ICON](https://www.github.com/23J1633/ICON) |
-| artifacts | 脱敏交付验证产物 / sanitized delivery evidence | [23J1633/artifacts](https://www.github.com/23J1633/artifacts) |
 
 `codex2server` 把本机 OpenAI Codex 接入 A2S 服务器。它启动官方 `codex app-server --listen stdio://`，通过双向 JSON-RPC 调用 Codex，并把 thread/turn/item 事件转换为与 `dsh2server` 相同的会话与事件模型。
 
